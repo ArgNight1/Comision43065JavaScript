@@ -15,7 +15,8 @@ function calcular(a, b, c, d) {
         alert(`Hola ${d}, ustedes Legitimo usuario y  debe $ ${saldo} pesos`);
 
     }
-
+    document.write(`Hola!! ${saldo}`);
+    return saldo;
 }
 
 for (let i = 0; i < 2; i++) {
@@ -48,6 +49,7 @@ for (let i = 0; i < 2; i++) {
 
         alert(`usted es lleva como socio, ${mesesPasados} meses hasta la fecha.`);
         calcular(cuotasPagas, mesesPasados, categoria, nombre);
+        
 
         break;
 
