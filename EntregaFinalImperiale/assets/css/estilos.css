@@ -1,0 +1,187 @@
+body {
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+
+#botones {
+  display: block;
+  margin-top: 20px;
+}
+
+#verUsuario {
+  color: green;
+  
+}
+
+#nombreUsuario {
+  color: red;
+  float: right;
+}
+
+#modoOscuro {
+  display: inline-block;
+  margin-top: 10px;
+}
+#usuarioLog {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#nombreUsuario {
+  margin-right: 10px;
+}
+
+.boton {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.boton:hover {
+  background-color: #45a049;
+}
+
+#tabla__contenedora {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+}
+
+th {
+  background-color: yellow;
+  color: #333 ;
+}
+
+
+.modo__oscuro {
+  background-color: #333;
+  color: #fff;
+}
+
+.negrita {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#formulario label {
+  font-weight: bold;
+  
+  
+}
+
+#formulario .grupoFrm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#formulario .grupoFrm label {
+  width: 180px; /* Ajusta el ancho según tus necesidades */
+  align-items: left;
+}
+
+#formulario button {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.videos__yt {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* .videos__yt a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+.videos__yt img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+  width: 200px;
+  height: auto;
+}
+
+.videos__yt img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 6);
+  transition: transform 0.3s ease;
+}
+
+.pronostico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pronostico img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+/* Estilos para el clima */
+.clima {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.clima img {
+  width: 30px;
+}
+
+.clima h2,
+.clima h3,
+.clima p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.clima p {
+  color: #777;
+}
+
